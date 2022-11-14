@@ -3,12 +3,12 @@ package javabasico;
 import java.util.Scanner;
 
 public class Actividad2 {
-
+	/*Hacer un programa, donde se definirán tres variables locales nombre, apellidos y
+	edad, siendo esta última de tipo entero. Estas variables se introducirán por consola.
+	Finalmente mostrará un mensaje en consola usando las variables de la siguiente forma: “Hola
+	nombre apellidos tienes edad años*/
+	
 	public static void main(String[] args) {
-		/*Hacer un programa, donde se definirán tres variables locales nombre, apellidos y
-		edad, siendo esta última de tipo entero. Estas variables se introducirán por consola.
-		Finalmente mostrará un mensaje en consola usando las variables de la siguiente forma: “Hola
-		nombre apellidos tienes edad años*/
 		
 		Scanner teclado = new Scanner(System.in);
 		
