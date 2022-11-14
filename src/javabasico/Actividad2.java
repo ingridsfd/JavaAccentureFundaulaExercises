@@ -9,21 +9,25 @@ public class Actividad2 {
 	nombre apellidos tienes edad años*/
 	
 	public static void main(String[] args) {
-		
+		//1. Define the vars that are introduced in the console.
 		Scanner teclado = new Scanner(System.in);
 		
-		int nombre;
-		int apellido;
+		String nombre;
+		String apellidos;
 		int edad;
 		
 		System.out.println("Nombre(s)");
-		nombre = teclado.nextInt();
+		nombre = teclado.nextLine();	
 		
 		System.out.println("Apellido(s)");
-		apellido = teclado.nextInt();
+		apellidos = teclado.nextLine();
 		
 		System.out.println("Edad");
 		edad = teclado.nextInt();
+		
+		//2. Show the message in console using the variables in the next form: "Hola name + apellidos tienes + edad + años.
+		
+		System.out.println("Hola " + nombre + " " + apellidos + " tienes " + edad + " años");
 
 	}
 

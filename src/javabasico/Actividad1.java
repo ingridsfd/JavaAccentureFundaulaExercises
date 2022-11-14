@@ -8,7 +8,7 @@ public class Actividad1 {
 	char c = ‘A’ → int
 	double d = 1.8 → float y int*/
 	public static void main(String[] args) {
-		//1. definit las variables
+		//1. definir las variables
 		
 		
 	}
