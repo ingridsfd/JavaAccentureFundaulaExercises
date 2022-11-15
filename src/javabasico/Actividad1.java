@@ -11,7 +11,7 @@ public class Actividad1 {
 		//1. Convertir variables
 		int a = 65;
 		char a2 = (char)a;
-		long a3 = Long.valueOf(a);
+		long a3 = a;
 		
 		long b = 10;
 		int b2 = (int)b;
@@ -22,11 +22,7 @@ public class Actividad1 {
 		
 		double d = 1.8;
 		int d2 = (int)d;
-		
-		
-		String d3 = String.valueOf(d);
-		
-		float i = Float.parseFloat(d3);
+		float d3 = (float)d;
 		
 		//2. Mostrar el resultado por consola
 		System.out.println("Resultado de las conversiones:");
